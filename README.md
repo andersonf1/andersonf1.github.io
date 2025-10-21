@@ -1,2 +1,3 @@
-# Personal Website
-Ongoing project as I explore programming
+# andersonflores.com
+personal website 
+to be updated

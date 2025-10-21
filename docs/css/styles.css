@@ -44,7 +44,6 @@ html,body { height: 100%; margin: 0; font-family: system-ui, -apple-system, "Seg
 
 a { color: var(--accent); }
 
-/* Social / icon buttons in footer */
 .social-links { display: flex; gap: .5rem; align-items: center; }
 .icon-btn {
   display: inline-flex;
@@ -64,7 +63,6 @@ a { color: var(--accent); }
 .icon-btn:hover { color: var(--accent); transform: translateY(-1px); }
 .icon-btn:focus { outline: 2px solid var(--accent); outline-offset: 3px; color: var(--accent); }
 
-/* screen-reader-only helper */
 .sr-only {
   position: absolute !important;
   width: 1px !important;
@@ -77,7 +75,6 @@ a { color: var(--accent); }
   border: 0 !important;
 }
 
-/* Small screens */
 @media (max-width:520px) {
   .site-header, .site-footer { flex-direction: column; align-items: flex-start; }
 }
